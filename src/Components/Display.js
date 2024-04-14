@@ -11,7 +11,8 @@ const Display = () => {
     const[pending, setPending] = useState(false)
 
     const fetchData = async(params) =>{
-        const url = `https://api.openweathermap.org/data/2.5/weather?q=${params}&appid=f4c6f150a96e958b08c718428fbd4d33`
+        // API key is this : f4c6f150a96e958b08c718428fbd4d33. exclude the dot please
+        const url = `https://api.openweathermap.org/data/2.5/weather?q=${params}&appid={api id}`
         setPending(true)
         try{
             const response = await fetch(url)
