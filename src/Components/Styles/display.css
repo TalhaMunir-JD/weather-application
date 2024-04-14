@@ -1,0 +1,75 @@
+.wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 30px;
+    
+}
+
+.main-container{
+    background-color: aqua;
+    width: 50%;
+    border-radius: 20px;
+}
+
+.search-container{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.SearchBar{
+    width: 70%;
+    border: 1px solid black;
+    border-radius: 15px;
+    height: 50px;
+    margin-right: 10%;
+}
+
+.search-button{
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    height: 50px;
+    width: 80px;
+    font-size: larger;
+}
+
+.dateDisplay span{
+    font-style: italic;
+    font-weight: 500;
+}
+
+.temperature{
+    font-size: x-large;
+    font-weight: 500;
+}
+
+.Description{
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+.weatherinfo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+
+.wind {
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.humidity {
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.text {
+    font-weight: bolder;
+    font-size: larger;
+}
